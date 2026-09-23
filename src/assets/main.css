@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .title {
+    @apply text-3xl font-bold text-center text-slate-100 mb-6;
+  }
+  .nav-link {
+    @apply text-slate-300 hover:text-white transition-colors duration-200 px-3 py-2 rounded-md;
+  }
+  .primary-btn {
+    @apply w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200;
+  }
+  .error {
+    @apply text-red-500 text-sm mt-1;
+  }
+}
+
+body {
+  @apply bg-slate-900 text-slate-100;
+}
