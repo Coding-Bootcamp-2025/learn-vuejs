@@ -20,7 +20,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://test-backend-api.test",
+        target: "http://localhost:8000",
         changeOrigin: true,
         headers: {
           Accept: "application/json",
